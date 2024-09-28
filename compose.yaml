@@ -3,7 +3,7 @@ include:
 
 services:
   web:
-    image: python_app
+    image: shvirtd-example-python:main
     restart: always
     depends_on:
       - db
